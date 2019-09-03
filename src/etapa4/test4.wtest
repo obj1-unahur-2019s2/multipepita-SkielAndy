@@ -1,0 +1,24 @@
+import masAves.*
+import roque.*
+import comidas.*
+import pepita.*
+test "roque trabaja" {
+    roque.tuPupiloEs(pepita)
+    roque.entrenar()
+    roque.tuPupiloEs(pepita)
+    roque.entrenar()
+    assert.equals(2330,pepita.energia())
+}
+
+
+
+ test "roque trabaja1" {
+    roque.tuPupiloEs(pepita)
+    roque.entrenar()
+    roque.entrenar()
+}
+
+/*en particular, ¿se rompe algo? y ¿cómo queda afectada Pepita? 
+* 
+* respuesta: En especial ese test no haria nada, no resuelve ninguna pregunta
+*/
